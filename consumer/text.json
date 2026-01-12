@@ -1,0 +1,59 @@
+{
+    "Messages": [
+        {
+            "MessageId": "dadfbfc9-b4ed-437a-92a8-8e52cd2cc588",
+            "ReceiptHandle": "AQEBpbkK1gaFfljNwQIjdZkYX/O9Mq8KInDWLVub9kFgOGF/IU4wccuvuTDmsLJ5SNwyTIUuZ6MVl/+uzl9K2o0kAIKH22i3DfbQ+ULV06sykwzlAg+IcurKSiYuJWiHEqHwuBMkuNbNYZewQTPi1ltYoxwwFFlH6wDkIuB+NA5iMYptUuqVUcNzE6DKp4ZuP76KeM0uJKzAvWQUp9ThgUK0lHaw4pPf3YRtq+NXoaBSzMANiDesFkrgOGPoyiM3D2SOtlSI+vYY00psNiPrwwwIBKrrbSBUg1r7OrfT6YODxu1xpExn0r7g8mZ2i6qOBeugLTtJG3ENtWW2JudPwIDEmyQ4iUI0zyoNLQNDgI9nnM7qC8p5OtR8rIWm0dnpH1div9SnYMWZPeP9pLMhvGGNJPWNfam0FVsYq3uteNzvJX8=",
+            "MD5OfBody": "5c82f40237fbff7888672e236aa92d26",
+            "Body": {
+                "Records": [
+                    {
+                        "eventVersion": "2.1",
+                        "eventSource": "aws:s3",
+                        "awsRegion": "eu-north-1",
+                        "eventTime": "2025-12-29T05: 54: 41.027Z",
+                        "eventName": "ObjectCreated:CompleteMultipartUpload",
+                        "userIdentity": {
+                            "principalId": "A8BDHE0VCGR5B"
+                        },
+                        "requestParameters": {
+                            "sourceIPAddress": "103.153.199.14"
+                        },
+                        "responseElements": {
+                            "x-amz-request-id": "N4NQ4GD99MKZC9D4",
+                            "x-amz-id-2": "IAjMztSyDviDN2fRRa9kEIbhoC79lMNT0D+2vqyBhTj2SiyMuYQu9PCXs8NcUjVuwY0XnIkzLggDfhq2PoYP/mQctqNZkYNdCS+IqR1HajU="
+                        },
+                        "s3": {
+                            "s3SchemaVersion": "1.0",
+                            "configurationId": "RawVideosToSQS",
+                            "bucket": {
+                                "name": "raw-videos-58",
+                                "ownerIdentity": {
+                                    "principalId": "A8BDHE0VCGR5B"
+                                },
+                                "arn": "arn:aws:s3: : :raw-videos-58"
+                            },
+                            "object": {
+                                "key": "videos/minecraft-cozy-lake-house-moewalls-com.mp4",
+                                "size": 33010431,
+                                "eTag": "84252cb80c9ad6824218f382d53acf17-2",
+                                "sequencer": "0069521794C45C41E6"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "ResponseMetadata": {
+        "RequestId": "e215c61b-3e0d-5f27-810f-a7d7966fc950",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "e215c61b-3e0d-5f27-810f-a7d7966fc950",
+            "date": "Mon, 29 Dec 2025 16:02:42 GMT",
+            "content-type": "application/x-amz-json-1.0",
+            "content-length": "1468",
+            "connection": "keep-alive"
+        },
+        "RetryAttempts": 0
+    }
+}
